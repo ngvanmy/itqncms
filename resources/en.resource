@@ -2,7 +2,7 @@
 // Created: 2017-03-29 21:59
 
 // sitemap
-T-420727794      : Trang chủ
+T-420727794      : Homepage
 T102307937       : All items
 T1601548646      : Checkout
 T-1359785684     : Checkout Payment
@@ -13,7 +13,7 @@ T64279793        : Blogs
 T-731349393      : Blog detail
 
 // sitemap, themes\default\views\index.html
-T-1678787584     : Liên hệ
+T-1678787584     : Contact
 
 // sitemap, themes\default\views\layout.html
 T892326455       : New items in the store

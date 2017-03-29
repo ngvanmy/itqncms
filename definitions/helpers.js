@@ -24,3 +24,9 @@ F.helpers.sitemap_category = function(url, category) {
 F.helpers.currency = function(value, decimals) {
 	return typeof(value) === 'string' ? F.config.custom.currency_entity.format(value) : F.config.custom.currency_entity.format(value.format(decimals || 2));
 };
+
+// F.onLocale = function(req) {
+//     if (req.query.language === 'vi')
+//         return 'vi';
+//     return 'en';
+// };
