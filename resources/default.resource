@@ -3,12 +3,12 @@
 
 // sitemap
 T-420727794      : Trang chủ
-T102307937       : All items
-T1601548646      : Checkout
+T102307937       : Tất cả
+T1601548646      : Thanh toán
 T-1359785684     : Checkout Payment
-T487334413       : Account
-T-618668810      : Account Settings
-T1355179215      : Product
+T487334413       : Tài khoản
+T-618668810      : Thiết lập tài khoản
+T1355179215      : Sản phẩm
 T64279793        : Blogs
 T-731349393      : Blog detail
 
@@ -16,18 +16,18 @@ T-731349393      : Blog detail
 T-1678787584     : Liên hệ
 
 // sitemap, themes\default\views\layout.html
-T892326455       : New items in the store
+T892326455       : Hàng mới về
 T308922645       : Top items
 T1558697881      : Popular items
 
 // sitemap, themes\default\views\eshop\account.html, themes\default\views\eshop\checkout-detail.html
-T76453678        : Order
+T76453678        : Đơn hàng
 
 // sitemap, public\templates\manager-pages.html, public\templates\manager-posts.html, public\templates\manager-products.html, themes\default\views\cms\product.html
 T115155230       : Category
 
 // models\contact.js
-T-1756619801     : Contact form #
+T-1756619801     : Liên hệ #
 
 // models\orders.js
 T457541553       : Order #
@@ -37,21 +37,21 @@ T-1257666163     : Order (update) #
 T-907041958      : Password recovery
 
 // models\users.js
-T-1185989415     : Registration
+T-1185989415     : Đăng ký
 
 // views\manager-login.html
-T-785010297      : Enter your login name
-T1758829696      : Enter your password
-T-873912411      : Incorrect username or password.
+T-785010297      : Tên đăng nhập
+T1758829696      : Mật khẩu
+T-873912411      : Tên đăng nhập hoặc mật khẩu không đúng.
 
 // views\manager-login.html, public\templates\manager-settings.html
-T187470082       : Login name
+T187470082       : Tên đăng nhập
 
 // views\manager-login.html, public\templates\manager-settings.html, themes\default\views\eshop\account-settings.html, themes\default\views\eshop\account-unlogged.html
-T1281629883      : Password
+T1281629883      : Mật khẩu
 
 // views\manager-login.html, themes\default\views\eshop\account-unlogged.html
-T-542111160      : Sign in
+T-542111160      : Đăng nhập
 
 // views\manager.html
 T1354720503      : SU,MO,TU,WE,TH,FR,SO
@@ -67,31 +67,31 @@ T-735310909      : years + ' ' + Tangular.helpers.pluralize(years, 'years', 'yea
 T-2128835281     : 'january', 'february', 'march', 'april', 'may', 'juny', 'july', 'august', 'september', 'october', 'november', 'december'
 
 // views\manager.html, themes\default\views\layout.html
-T65203672        : Close
+T65203672        : Đóng
 
 // views\manager.html, public\templates\manager-orders.html
-T-1924903163     : Orders
+T-1924903163     : Đơn hàng
 
 // views\manager.html, public\templates\manager-products.html
-T-939117180      : Products
+T-939117180      : Sản phẩm
 
 // views\manager.html, public\templates\manager-pages.html
-T76873636        : Pages
+T76873636        : Trang
 
 // views\manager.html, public\templates\manager-posts.html
-T77302707        : Posts
+T77302707        : Bài viết
 
 // views\manager.html, public\templates\manager-users.html
-T82025960        : Users
+T82025960        : Người dùng
 
 // views\manager.html, public\templates\manager-newsletter.html
-T-1198923559     : Newsletter
+T-1198923559     : Nhận tin
 
 // views\manager.html, public\templates\component-editor.html, themes\default\views\eshop\account.html
-T1499275331      : Settings
+T1499275331      : Thiết lập
 
 // views\manager.html, themes\default\views\layout.html, themes\default\views\eshop\account.html
-T374429323       : Sign out
+T374429323       : Thoát
 
 // public\templates\component-editor.html
 T1700030920      : Select widget
@@ -135,7 +135,7 @@ T80818744        : Title
 T2228139         : HTML
 
 // public\templates\component-editor.html, public\templates\manager-orders.html, public\templates\manager-pages.html, public\templates\manager-posts.html, public\templates\manager-products.html, public\templates\manager-settings.html, public\templates\manager-users.html
-T2011110042      : Cancel
+T2011110042      : Hủy
 
 // public\templates\component-editor.html, public\templates\manager-pages.html, public\templates\manager-settings.html
 T1803797027      : URL address
@@ -152,7 +152,7 @@ T2155050         : Edit
 
 // public\templates\manager-dashboard.html
 T-835564670      : Today statistics
-T707200196       : Today orders
+T707200196       : Đơn hàng hôm nay
 T2249568         : Hits
 T1649327589      : Visitors
 T1892688148      : Unique visitors
@@ -207,8 +207,8 @@ T-2069762884     : Stats for last 16 months
 T-159776256      : yyyy-MM-dd
 
 // public\templates\manager-orders.html
-T-302235637      : Search orders ...
-T-953530780      : All orders
+T-302235637      : Tìm kiếm đơn hàng ...
+T-953530780      : Tất cả đơn hàng
 T333376434       : Uncompleted
 T1306456528      : Uncompleted and not paid
 T-130849757      : Uncompleted and paid
