@@ -17,7 +17,7 @@ T-1678787584     : Liên hệ
 
 // sitemap, themes\default\views\layout.html
 T892326455       : Hàng mới về
-T308922645       : Top items
+T308922645       : Hàng bán chạy
 T1558697881      : Popular items
 
 // sitemap, themes\default\views\eshop\account.html, themes\default\views\eshop\checkout-detail.html
@@ -232,15 +232,15 @@ T163412261       : Do you want to remove selected order?
 T-1850743644     : Remove
 
 // public\templates\manager-orders.html, themes\default\views\eshop\checkout.html
-T-1603685770     : Order form
-T-1808122845     : Street
-T-1950496919     : Number
-T2100619         : City
+T-1603685770     : Thông tin đặt hàng
+T-1808122845     : Tên đường
+T-1950496919     : Số nhà
+T2100619         : Thành phố
 T88833           : ZIP
-T-1672482954     : Country
-T-1679829923     : Company
-T1145729982      : Company ID
-T722414656       : VAT number
+T-1672482954     : Quốc gia
+T-1679829923     : Công ty
+T1145729982      : Mã công ty
+T722414656       : VAT
 
 // public\templates\manager-orders.html, public\templates\manager-pages.html, public\templates\manager-posts.html, public\templates\manager-products.html
 T1075800         : # Id
@@ -254,7 +254,7 @@ T-1816114794     : Tracking code
 T81483           : Qt.
 
 // public\templates\manager-orders.html, public\templates\manager-products.html, themes\default\views\eshop\checkout-detail.html, themes\default\views\eshop\checkout.html, themes\default\views\mails\order-status.html, themes\default\views\mails\order.html
-T77381929        : Price
+T77381929        : Đơn giá
 
 // public\templates\manager-orders.html, themes\default\views\eshop\checkout-detail.html, themes\default\views\mails\order-status.html, themes\default\views\mails\order.html
 T2058509869      : Ordered items
@@ -266,15 +266,15 @@ T-1601759544     : Created
 T-1240389125     : IP address
 
 // public\templates\manager-orders.html, public\templates\manager-users.html, themes\default\public\templates\contactform.html, themes\default\views\eshop\account-settings.html, themes\default\views\eshop\account-unlogged.html, themes\default\views\eshop\checkout.html
-T1774297627      : First name
-T-336058955      : Last name
+T1774297627      : Họ
+T-336058955      : Tên
 
 // public\templates\manager-orders.html, themes\default\views\eshop\checkout-detail.html, themes\default\views\eshop\checkout.html
-T1518691304      : Delivery address
-T-195558568      : Item name
+T1518691304      : Địa chỉ giao hàng
+T-195558568      : Tên sản phẩm
 
 // public\templates\manager-orders.html, themes\default\views\eshop\checkout-detail.html, themes\default\views\eshop\checkout.html, themes\default\views\mails\contact.html, themes\default\views\mails\order-status.html, themes\default\views\mails\order.html
-T-526187941      : Phone number
+T-526187941      : Điện thoại
 
 // public\templates\manager-orders.html, themes\default\public\templates\contactform.html
 T-1675388953     : Message
@@ -371,10 +371,10 @@ T1972506027      : Author
 T2598969         : Tags
 
 // public\templates\manager-products.html
-T-824286966      : Search products ...
-T560353819       : All categories
-T-1843702173     : All manufacturers
-T541839651       : All products
+T-824286966      : Tìm kiếm hàng hóa ...
+T560353819       : Tất cả nhóm
+T-1843702173     : Tất cả nhà sản xuất
+T541839651       : Tất cả hàng hóa
 T2424563         : News
 T84277           : Top
 T2392787         : NEWS
@@ -396,7 +396,7 @@ T1841300820      : Replace old category with new category name in all products w
 T1383606571      : New name
 T-1861865283     : Add new category
 T-1547836979     : New category name
-T254826576       : Add product
+T254826576       : Thêm hàng hóa
 T-1880884982     : Replace category
 T-508022033      : Import CSV or XML
 T227134146       : Export products to XML
@@ -505,16 +505,16 @@ T1311276570      : Browse products
 T2066720547      : Premium electro
 T-337208550      : <b>Premium</b> electro
 T1656375912      : Thanks, you have been added.
-T-848688042      : Join to our mailing list
-T1145037451      : Browse all items
+T-848688042      : Đăng ký nhận tin
+T1145037451      : Tất cả sản phẩm
 
 // themes\default\views\layout.html
 T-1294691335     : This site uses cookies for visitor statistics. By continuing to browse the site you are agreeing to our use of cookies.
 T-1069410038     : Privacy Policy
-T-1482605639     : My Account
-T1102570955      : Your shopping cart
-T-497344074      : Search items ...
-T-864113921      : Show categories
+T-1482605639     : Tài khoản
+T1102570955      : Giỏ hàng
+T-497344074      : Tìm kiếm ...
+T-864113921      : Hiển thị danh mục
 T187117500       : All rights reserved.
 
 // themes\default\public\templates\contactform.html
@@ -536,7 +536,7 @@ T1693729697      : Do you need more informations?
 T-1539820533     : Related
 
 // themes\default\views\cms\product.html, themes\default\views\eshop\partial-products.html
-T77184           : NEW
+T77184           : Mới
 
 // themes\default\views\eshop\account-settings.html, themes\default\views\eshop\account-unlogged.html
 T164186601       : International format
@@ -546,25 +546,25 @@ T1285893563      : Password again
 T-721585141      : I want to change my password
 
 // themes\default\views\eshop\account-unlogged.html
-T1229304788      : Forgot your password?
+T1229304788      : Quên mật khẩu?
 T2022304625      : I know my password
-T-1955990934     : Create a new account
-T2012238471      : Personal informations
-T1717224679      : Contact informations
+T-1955990934     : Tạo tài khoản mới
+T2012238471      : Thông tin cá nhân
+T1717224679      : Thông tin liên hệ
 T976417721       : We sent you email with instructions for resetting of your password.
 
 // themes\default\views\eshop\account-unlogged.html, themes\default\views\eshop\checkout.html
-T68140841        : I agree with terms and conditions
+T68140841        : Tôi đồng ý với các điều khoản và điều kiện
 
 // themes\default\views\eshop\account.html
-T-190113873      : Support
+T-190113873      : Hỗ trợ
 T355504755       : Explore
-T1964327598      : You don't have any orders.
-T1117918113      : My orders:
-T100526016       : items
+T1964327598      : Bạn chưa có đơn hàng.
+T1117918113      : Đơn hàng:
+T100526016       : Sản phẩm
 
 // themes\default\views\eshop\account.html, themes\default\views\eshop\checkout.html
-T-1001660743     : Browse all products
+T-1001660743     : Tất cả sản phẩm
 
 // themes\default\views\eshop\checkout-detail.html
 T1649684595      : Many thanks for the order. <b>Your order has been created successfully.</b>.
@@ -573,7 +573,7 @@ T1615842596      : ORDER STATUS
 T662464619       : Do you want to <b>cancel this order</b>?
 T3433164         : paid
 T1828255822      : Order items
-T868043071       : Phone number:
+T868043071       : Điện thoại:
 T917578051       : Pay bill now via
 T2008679964      : You will be redirect to secured PayPal payment page.
 T171486165       : Pay Bill Now
@@ -582,18 +582,18 @@ T705029261       : Total price:
 T1526402414      : Buy other products
 
 // themes\default\views\eshop\checkout-detail.html, themes\default\views\mails\contact.html, themes\default\views\mails\order-status.html, themes\default\views\mails\order.html
-T670819326       : Customer
+T670819326       : Khách hàng
 
 // themes\default\views\eshop\checkout-detail.html, themes\default\views\eshop\checkout.html, themes\default\views\mails\contact.html, themes\default\views\mails\order-status.html, themes\default\views\mails\order.html
-T1901549392      : Email address
+T1901549392      : Email
 
 // themes\default\views\eshop\checkout-detail.html, themes\default\views\eshop\checkout.html
-T358836015       : Billing address
-T80997156        : Total
+T358836015       : Địa chỉ nhận hàng
+T80997156        : Tổng cộng
 T-1398430432     : Together:
 
 // themes\default\views\eshop\checkout-detail.html, themes\default\views\eshop\checkout.html, themes\default\views\mails\order-status.html, themes\default\views\mails\order.html
-T-777172703      : Summarize
+T-777172703      : Tổng cộng
 
 // themes\default\views\eshop\checkout-error.html
 T2057953893      : Payment problem
@@ -605,26 +605,26 @@ T1748897631      : Your shopping cart is empty, <b>try to visit this page later<
 T65298671        : Count
 T1975880230      : One piece:
 T1117399742      : <b>Sign up</b> now and watch states of your orders easily. It's easy, safe and very fast.
-T-1386031319     : Create account
-T1013643249      : I want to create the order to company
-T-70819791       : Address is same as billing address
-T-1371802117     : Choose a type of payment
-T877971942       : Payment
-T75456161        : Notes
-T1032565716      : I want to be notified about discounts and news
-T-1209506522     : SUBMIT ORDER
+T-1386031319     : Tạo tài khoản
+T1013643249      : Đặt hàng cho công ty
+T-70819791       : Thông tin thanh toán giống địa chỉ giao hàng
+T-1371802117     : Chọn phương thức thanh toán
+T877971942       : Thanh toán
+T75456161        : Ghi chú
+T1032565716      : Đăng ký nhận thông tin
+T-1209506522     : TIẾN HÀNH THANH TOÁN
 
 // themes\default\views\eshop\checkout.html, themes\default\views\mails\order-status.html, themes\default\views\mails\order.html
-T888111124       : Delivery
+T888111124       : Phương thức vận chuyển
 
 // themes\default\views\eshop\partial-blogs.html, themes\default\views\eshop\partial-products.html
 T-1100665556     : Currently we don't have any items sufficient for search criteria.
 T103243652       : Try to visit our page later
 
 // themes\default\views\eshop\partial-filter.html
-T-1964972026     : Newest
-T-487343779      : Low price
-T181747051       : High price
+T-1964972026     : Mới nhất
+T-487343779      : Giá thấp đến cao
+T181747051       : Giá cao đến thấp
 
 // themes\default\views\eshop\partial-subcategories.html
 T629105724       : Subcategories
