@@ -1,0 +1,79 @@
+{
+    "name": "TestApp",
+    "version": "1.0.0",
+    "icon": "http://openapp.totaljs.com/icon.png",
+
+    // Author of the application
+    "author": "Peter Širka",
+
+    // Support email
+    "email": "petersirka@gmail.com",
+
+    // Optional. The description sees only the super user of the OpenPlatform.
+    "description": "Some important info for the superuser.",
+
+    // URL which to be open when the user clicks on the application's icon
+    "url": "http://openapp.totaljs.com",
+
+    // Optional: session URL - workaround for iframes blocking in Safari. 
+    // More info bellow.
+    "url_session": "http://openapp.totaljs.com/openplatform/",
+
+    // Optional: roles used within the application. 
+    "roles": ["create", "read", "update"],
+
+    // Optional: widgets to be shown on the dashboard.
+    "widgets": [
+        {
+            // Widget name
+            "name": "Chart.js",
+
+            // Widget generator
+            "url": "http://openapp.totaljs.com/widgets/chartjs/",
+
+            // Optional: when the user clicks on the widget the OpenPlatform
+            // redirects the iFrame to this URL address. Default: application "url"
+            "redirect": "",
+
+            // Optional: widget's background color. Default: white
+            "background": "white",
+
+            // Optional: widget's font color. Default: silver
+            "color": "silver",
+
+            // Optional: size of widget "1" = 400x250, "2" = 600x250, "3" = 800x250.
+            // Default: 1
+            "size": 1,
+
+            // Optional: refresh interval, default 15000 (15 seconds). A minimal value
+            // can be 15000.
+            "interval": 15000
+        }
+    ],
+
+    // Optional: which events does the application publish?
+    "publish": ["order-create", "order-update", "order-remove"],
+
+    // Optional: on which events does the application subscribe?
+    "subscribe": ["openplatform-user-update"],
+
+    // Optional: service URL for receiving data from the Service-Worker
+    // The platform sends an object { event: String, data: Object } (POST + application/json)
+    "url_subscribe": "http://openapp.totaljs.com/my-subscribter/",
+
+    // Is the app service? If yes, then the application won't be visible in user's
+    // application list.
+    "service": false,
+
+    // Optional: it's executed when the super-admin enables the application for the user
+    // The platform sends the user object (POST + application/json)
+    "url_register": "",
+    
+    // Optional: it's executed when the super-admin disables the application for the user
+    // The platform sends the user object (POST + application/json)
+    "url_unregister": "",
+    
+    // Optional: whitelist of IP addresses to be checked by the OpenPlatform for the requests
+    // originated from a server. It's a simple hijacking prevention.
+    "origin": ['10.77.50.11']
+}
